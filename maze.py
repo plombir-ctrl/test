@@ -3,6 +3,7 @@ window_size = (700, 500)
 window = display.set_mode(window_size)
 clock = time.Clock()
 FPS = 60
+print('helo')
 
 class GameSprite(sprite.Sprite):
     def __init__(self, x, y, image, speed):
